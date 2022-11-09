@@ -78,7 +78,7 @@ if (x === "abc" || x === "def" || x === "ghi" || x === "jkl") {
 }
 
 //简写方法
-if (["abc", "def", "ghi", "jkl"].includes(x)
+if (["abc", "def", "ghi", "jkl"].includes(x))
 ```
 
 ### 一次渲染上万数据
@@ -181,21 +181,7 @@ let str = "123456";
 console.log(str.slice(1, 4)); //'234'
 ```
 
-### substr 截取指定个数字符
 
-> `substr(3, 2)`：从下标 3 开始截取，共截取 2 个字符
->
-> 不会修改原字符串
->
-> `substr(3)`：从下标 3 开始截取后面所有的字符
->
-> 不会修改原字符串
-
-```js
-let str = "Hello World";
-console.log(str.substr(6, 5)); //'World'
-console.log(str.substr(9)); //'ld'
-```
 
 ### charAt()返回指定位置字符
 
